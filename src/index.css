@@ -279,11 +279,66 @@ img {
   font-size: 15px;
  }
 
- .footer h1:hover {
+.footer h1:hover {
   color: #2196f3;
  }
 
 
+ @media (max-width: 800px) {
+
+  button{
+    font-size: 12px;
+  }
+
+  .infoOfTheDay {
+    width: 400px;
+    height: 600px;
+    font-size: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .infoOfTheDay h1 {
+    font-size: 18px;
+  }
+
+  .video-card {
+    width: 300px;
+    height: 200px;
+    font-size: 10px;
+  }
+
+  .video-card img {
+    width: 80px;
+    height: 60px;
+    padding-left: 0px;
+  }
+
+  .search {
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .noResults {
+    height: 400px; 
+    margin-bottom: 0px;
+  }
+
+  .popup{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 200px;
+    width: 400px;
+    height: 500px;
+  }
+
+  .popup h1 {
+    padding-left: 260px;
+  }
+ }
 
 
 
